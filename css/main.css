@@ -1,11 +1,33 @@
 html {
-  font-family: "Fredoka One", cursive;
+  font-family: "Fredoka One", sans-serif;
 }
 
 h1 {
   color: #990073;
+  transform: rotate(-8deg);
 }
 
 p, a {
   color: #c09;
+}
+
+p {
+  max-width: 19em;
+  transform: rotate(-5deg);
+}
+
+.btn, .btn-ghost {
+  border-width: 3px;
+  border-color: #990073;
+  color: #c09;
+}
+
+.background {
+  background-image: repeating-linear-gradient(#d4fdff, #c9fcff);
+  border-top: solid 8px #b3fbff;
+  border-bottom: solid 8px #b3fbff;
+}
+
+h1, p, a {
+  text-shadow: 1px 1px 1px gray;
 }
